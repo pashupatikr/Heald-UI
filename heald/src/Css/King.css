@@ -6,3 +6,13 @@
 .primary-text{
     font-weight: bolder;
 }
+.main-header{
+    position: static;
+    height: 60px;
+    background-color: #131921;
+}
+.sub-header{
+    background-color: #232f3e;
+    height: 39px;
+    padding-top: 0;
+}
