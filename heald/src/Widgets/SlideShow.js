@@ -4,21 +4,25 @@ import img2 from "../Elements/Image/SlideshowImg/2.jpg";
 import img3 from "../Elements/Image/SlideshowImg/3.jpg";
 
 export default function SlideShow() {
+  const heights = {
+    height:"300px"
+  }
   return (
     <div>
       <div
         className="uk-position-relative uk-visible-toggle uk-light"
         tabIndex="-1"
         uk-slideshow="true"
+        style={heights}
       >
-        <ul className="uk-slideshow-items">
-          <li>
+        <ul  className="uk-slideshow-items">
+          <li style={heights}>
             <img src={img1} alt="" uk-cover="true" />
           </li>
-          <li>
+          <li style={heights}>
             <img src={img2} alt="" uk-cover="true" />
           </li>
-          <li>
+          <li style={heights}>
             <img src={img3} alt="" uk-cover="true" />
           </li>
         </ul>

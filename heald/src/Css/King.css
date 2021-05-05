@@ -16,3 +16,11 @@
     height: 39px;
     padding-top: 0;
 }
+.margin_product_slide{
+    width: 150px;
+}
+.product_slide_div{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px 10px 0px;
+}
+ 
